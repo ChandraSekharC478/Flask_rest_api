@@ -17,3 +17,12 @@ variable "private_subnet_id" {
 variable "availabilty_zone" {
   type = list(string)
 }
+variable "vpc_id" {
+  type = string
+}
+variable "ami_id" {
+  type = string
+}
+variable "public_key" {
+  type = string
+}
